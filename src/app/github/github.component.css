@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.follower__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.follower__image img { 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.follower__login {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.follower__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: darkblue;
+}
